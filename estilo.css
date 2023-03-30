@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: rgb(28, 28, 28);
+    font-size: 17px;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.hero{
+    height: 100vh;
+}
+
+body{
+    background-color: beige;
+    height: 100vh;
+}
+
+.encabezado{
+    padding: 25px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.texto1{
+    background-color: rgb(182, 178, 178,0.4);
+    font-size: 22px;
+    color: rgb(28, 28, 28);
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    padding: 23px 0px;
+    padding-left: 20px;
+    width: 18%;
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    z-index: -1;
+}
+.texto1 i{
+    padding-right: 12px;
+    font-size: 24px;
+}
+.texto2{
+    background-color: rgb(28, 28, 28);
+    color:rgb(245, 245, 220);
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    width: 50%;
+    position: absolute;
+    top: 43%;
+    padding: 23px 0px;
+    font-size: 18px;
+    z-index: -1;
+}
+
+.texto3{
+    background-color:rgb(182, 178, 178,0.4) ;
+    font-size: 24px;
+    padding: 53px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    z-index: -1;
+}
+.texto3 .superpuesto{
+    position: absolute;
+    color: rgb(28, 28, 28);
+    top: 41%;
+}
+
+.fondo1{
+    font-size: 75px;
+    color: rgb(245, 245, 220,0.7);
+    position: absolute;
+    top: 41%;
+    left: 63%;
+    z-index: -1;
+}
+.fondo2{
+    font-size: 75px;
+    color: rgb(245, 245, 220,0.7);
+    position: absolute;
+    top: 48%;
+    left: 63%;
+    z-index: -1;
+}
+
+.texto4{
+    background-color: rgb(28, 28, 28);
+    color:rgb(245, 245, 220);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 21%;
+    font-size: 22px;
+    padding: 23px 0px;
+    padding-right: 20px;
+    position: absolute;
+    top: 70%;
+    left: 58%;
+    z-index: -1;
+}
+
+.texto4 i{
+    padding-left: 12px;
+}
+
+.foto{
+    width: 37%;
+    position: absolute;
+    left: 31%;
+    bottom: 0%;
+    z-index: 0;
+}
+
+.abajo{
+    font-size: 22px;
+    color: rgb(28, 28, 28);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 84%;
+}
+
+.numero{
+    font-size: 65px;
+}
+
+.dato2{
+    color: rgb(245, 245, 220);
+}
+
+
