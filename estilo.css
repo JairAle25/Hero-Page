@@ -5,24 +5,26 @@
     padding: 0;
     font-family: 'Josefin Sans', sans-serif;
 }
+/*decoramos los links*/
 a{
     text-decoration: none;
     color: rgb(28, 28, 28);
-    font-size: 17px;
+    font-size: 18px;
 }
+/*le damos una decoracion a los links*/
 a:hover{
     text-decoration: underline;
 }
-
+/*tamaño de hero*/
 .hero{
     height: 100vh;
 }
-
+/*le damos color al body*/
 body{
     background-color: beige;
     height: 100vh;
 }
-
+/*decoramos el header*/
 .encabezado{
     padding: 25px 0px;
     display: flex;
@@ -33,7 +35,7 @@ body{
     z-index: 1;
 }
 
-
+/*decoramos y posicionamos el primer texto*/
 .texto1{
     background-color: rgb(182, 178, 178,0.4);
     font-size: 22px;
@@ -49,10 +51,13 @@ body{
     top: 20%;
     z-index: -1;
 }
+/*modificamos el icono del primero texto*/
 .texto1 i{
     padding-right: 12px;
     font-size: 24px;
 }
+
+/*decoramos y posicionamos el segundo texto*/
 .texto2{
     background-color: rgb(28, 28, 28);
     color:rgb(245, 245, 220);
@@ -67,10 +72,11 @@ body{
     z-index: -1;
 }
 
-.texto3{
+/*decoramos y posicionamos el tercer texto*/
+.texto3 {
     background-color:rgb(182, 178, 178,0.4) ;
     font-size: 24px;
-    padding: 53px 0px;
+    padding: 40px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,28 +84,23 @@ body{
     position: absolute;
     top: 43%;
     left: 50%;
-    z-index: -1;
-}
-.texto3 .superpuesto{
-    position: absolute;
-    color: rgb(28, 28, 28);
-    top: 41%;
+    z-index: 0;
 }
 
 .fondo1{
     font-size: 75px;
     color: rgb(245, 245, 220,0.7);
     position: absolute;
-    top: 41%;
-    left: 63%;
+    bottom: 32%;
+    left: 10%;
     z-index: -1;
 }
 .fondo2{
     font-size: 75px;
     color: rgb(245, 245, 220,0.7);
     position: absolute;
-    top: 48%;
-    left: 63%;
+    top: 36%;
+    left: 26%;
     z-index: -1;
 }
 
