@@ -92,7 +92,7 @@ body{
     color: rgb(245, 245, 220,0.7);
     position: absolute;
     bottom: 32%;
-    left: 10%;
+    left: 25%;
     z-index: -1;
 }
 .fondo2{
@@ -100,7 +100,7 @@ body{
     color: rgb(245, 245, 220,0.7);
     position: absolute;
     top: 36%;
-    left: 26%;
+    left: 27%;
     z-index: -1;
 }
 
