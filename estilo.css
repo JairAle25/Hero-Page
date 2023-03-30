@@ -86,7 +86,8 @@ body{
     left: 50%;
     z-index: 0;
 }
-
+/*Decoro y posiciono el texto de fondo del
+segundo texto*/
 .fondo1{
     font-size: 75px;
     color: rgb(245, 245, 220,0.7);
@@ -95,6 +96,8 @@ body{
     left: 25%;
     z-index: -1;
 }
+/*Decoro y posiciono el texto de fondo del
+segundo texto*/
 .fondo2{
     font-size: 75px;
     color: rgb(245, 245, 220,0.7);
@@ -103,7 +106,7 @@ body{
     left: 27%;
     z-index: -1;
 }
-
+/*decoramos y posicionamos el cuarto texto*/
 .texto4{
     background-color: rgb(28, 28, 28);
     color:rgb(245, 245, 220);
@@ -119,11 +122,11 @@ body{
     left: 58%;
     z-index: -1;
 }
-
+/*posicionamos el icono del cuarto texto*/
 .texto4 i{
     padding-left: 12px;
 }
-
+/*modificamos y posicionamos la foto de la pagina*/
 .foto{
     width: 37%;
     position: absolute;
@@ -131,7 +134,8 @@ body{
     bottom: 0%;
     z-index: 0;
 }
-
+/*este es el div de todos los textos de abajo
+y lo decoramos y posicionamos*/
 .abajo{
     font-size: 22px;
     color: rgb(28, 28, 28);
@@ -143,11 +147,11 @@ body{
     width: 100%;
     top: 84%;
 }
-
+/*agrandamos los numeros y iconos*/
 .numero{
     font-size: 65px;
 }
-
+/*modificamos el texto del medio*/
 .dato2{
     color: rgb(245, 245, 220);
 }
